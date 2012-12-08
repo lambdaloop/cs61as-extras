@@ -15,7 +15,7 @@
 ;; WILL DISPLAY (no real return value):
 ;;  Nice message =D
 ;;  *** Error:
-;;   /: not a valid number 0 okay
+;;   /: not a valid number 0
 
 ;; > (with-error-handler (lambda (e)
 ;;                       100)
