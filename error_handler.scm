@@ -34,9 +34,7 @@
 
 ;; this took forever to figure out...
 (define-macro (with-error-handler error-handler . body)
-  (let ((result (gensym))
-        (evaled? (gensym))
-        (old-error (gensym)))
+  (let ((result (gensym)))
     `(fluid-let ((error error)
                  (report-error report-error))
        (let ((,result (make-undefined))
