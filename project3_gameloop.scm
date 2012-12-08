@@ -1,6 +1,8 @@
 (load "error_handler.scm")
 
-;; added this for my convenience
+;; An elaborate game loop for Project 3
+;; MUCH nicer than the provided one, since it keeps going, even on errors
+
 (define (game-loop who)
   (newline)
   (let ((p (ask who 'place)))
