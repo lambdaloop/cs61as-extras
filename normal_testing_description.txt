@@ -1,6 +1,9 @@
 Testing in Scheme
 
-(NOTE: this is pretty much copied straight up from a Piazza post)
+(NOTE: this is pretty much copied straight up from a Piazza post.
+Here's a link to it, if it's still up:
+https://piazza.com/class#fall2012/cs61as/83)
+
 
 From reading the scheme files loaded when you start stk, I found a testing framework.
 Not sure if we'll ever talk about it, so I'll talk about it.
